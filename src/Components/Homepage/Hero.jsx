@@ -20,7 +20,7 @@ const HeroSection = ({ language = 'en' }) => {
         description: "Experience the eternal peace and spiritual vibration of 1000+ years of heritage.",
         ctaPrimary: "Visit Temple",
         ctaSecondary: "Support & Donate",
-        bgImage: "https://images.unsplash.com/photo-1603766806347-54cdf3745953?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGVtcGxlfGVufDB8fDB8fHww",
+        bgImage: "/img/Gallery/gp (2).jpeg",
       },
       {
         id: 2,
@@ -29,7 +29,7 @@ const HeroSection = ({ language = 'en' }) => {
         description: "Join us in the historic consecration ceremony of the divine Jinendra idols.",
         ctaPrimary: "Learn More",
         ctaSecondary: "Register Now",
-        bgImage: "https://images.unsplash.com/photo-1524443169398-9aa1ceab67d5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGVtcGxlfGVufDB8fDB8fHww",
+        bgImage: "/img/Gallery/gp (3).jpeg",
       },
       {
         id: 3,
@@ -38,7 +38,7 @@ const HeroSection = ({ language = 'en' }) => {
         description: "Witness the intricate carvings and profound silence of our sacred Jain architecture.",
         ctaPrimary: "Gallery",
         ctaSecondary: "Our History",
-        bgImage: "https://images.unsplash.com/photo-1524443169398-9aa1ceab67d5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGVtcGxlfGVufDB8fDB8fHww",
+        bgImage: "/img/Gallery/gp (4).jpeg",
       }
     ],
     hi: [
@@ -49,7 +49,7 @@ const HeroSection = ({ language = 'en' }) => {
         description: "१०००+ वर्षों की विरासत की शाश्वत शांति और आध्यात्मिक स्पंदन का अनुभव करें।",
         ctaPrimary: "मंदिर दर्शन",
         ctaSecondary: "सहयोग और दान",
-        bgImage: "https://images.unsplash.com/photo-1603766806347-54cdf3745953?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGVtcGxlfGVufDB8fDB8fHww",
+        bgImage: "/img/Gallery/gp (2).jpeg",
       },
       {
         id: 2,
@@ -58,7 +58,7 @@ const HeroSection = ({ language = 'en' }) => {
         description: "दिव्य जिनेंद्र प्रतिमाओं के ऐतिहासिक अभिषेक समारोह में हमारे साथ जुड़ें।",
         ctaPrimary: "अधिक जानकारी",
         ctaSecondary: "पंजीकरण करें",
-        bgImage: "https://images.unsplash.com/photo-1524443169398-9aa1ceab67d5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGVtcGxlfGVufDB8fDB8fHww",
+        bgImage: "/img/Gallery/gp (3).jpeg",
       },
       {
         id: 3,
@@ -67,7 +67,7 @@ const HeroSection = ({ language = 'en' }) => {
         description: "हमारी पवित्र जैन वास्तुकला की जटिल नक्काशी और गहन मौन के साक्षी बनें।",
         ctaPrimary: "गैलरी",
         ctaSecondary: "हमारा इतिहास",
-        bgImage: "https://images.unsplash.com/photo-1524443169398-9aa1ceab67d5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGVtcGxlfGVufDB8fDB8fHww",
+        bgImage: "/img/Gallery/gp (4).jpeg",
       }
     ]
   };
@@ -95,7 +95,7 @@ const HeroSection = ({ language = 'en' }) => {
             {/* Background Image with Ken Burns Effect */}
             <div 
               className="absolute inset-0 bg-cover bg-center transition-transform duration-[10000ms] ease-linear scale-125"
-              style={{ backgroundImage: `url(${slide.bgImage})` }}
+              style={{backgroundImage: `url("${slide.bgImage}")`, }}
             >
               {/* Divine Dark Overlay */}
               <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-black/80"></div>

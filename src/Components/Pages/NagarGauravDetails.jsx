@@ -7,7 +7,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
   const { id } = useParams();
 
   // Content Object - Same as NagarGaurav
-   const content = {
+  const content = {
     en: {
       pageTitle: "Nagar Gaurav",
       pageSubtitle: "Honoring the esteemed spiritual leaders and saints who have graced our Kshetra.",
@@ -25,6 +25,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           details: {
             birthName: "Naveen Kumar Jain",
             birthPlace: "Gadhakota, Sagar, Madhya Pradesh",
+            birthdate: "December 4, 1957",
             fatherName: "Late Shri Khoobchand Jain",
             motherName: "Late Smt. Indra Devi Jain (Samadhisth Punya 105 Muktishri Mata Ji)",
             ailakDiksha: "20 August 1980, Siddh Kshetra Nemgiri",
@@ -46,6 +47,8 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           details: {
             birthName: "Vinod Kumar Jain",
             birthPlace: "Gadhakota, Sagar, Madhya Pradesh",
+            birthdate: "April 17, 1968",
+
             fatherName: "Shri Komalchand Jain",
             motherName: "Smt. Tarabai Jain",
             education: "High School",
@@ -67,6 +70,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           details: {
             birthName: "Arvind Jain",
             birthPlace: "Gunjora, Gadhakota",
+            birthdate: "October 8, 1970",
             fatherName: "Shri Amarchand Jain",
             motherName: "Smt. Lakshmi Devi Jain",
             education: "Graduate"
@@ -84,6 +88,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           details: {
             birthName: "Kunwar Lal Ji (Banda Wale)",
             birthPlace: "Pura, Damoh",
+            birthdate: "Year 1910",
             fatherName: "Shri Balchand Ji",
             motherName: "Smt. Shanti Bai Ji",
             education: "Primary",
@@ -92,7 +97,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
             samadhi: "Year 1998, Village Hardi"
           }
         },
-        
+
         {
           id: 4,
           title: "Ailak Shri 105 Siddhant Sagar Ji Maharaj",
@@ -103,6 +108,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           details: {
             birthName: "Suman Kumar Jain (Jayak)",
             birthPlace: "Gudhawar",
+            birthdate: "14 August 1958",
             fatherName: "Shri Gulzarilal Jain",
             motherName: "Smt. Sheeladevi Jain",
             education: "B.Com",
@@ -110,8 +116,8 @@ const NagarGauravDetails = ({ language = 'en' }) => {
             kshullakDiksha: "16 May 1991, Siddh Kshetra Muktagiri Ji",
             ailakDiksha: "21 July 1991, Siddh Kshetra Muktagiri Ji"
           }
-        }, 
-        
+        },
+
         {
           id: 5,
           title: "Aryika Shri 105 Aagat Mati Mata Ji",
@@ -134,7 +140,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
             specialNote: "Received direct Aryika Diksha"
           }
         },
-        
+
         {
           id: 6,
           title: "Samadhistha Pujya 105 Muktishri Mata Ji",
@@ -144,17 +150,18 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           link: "",
           details: {
             birthName: "Smt. Indra Devi Ji",
+            birthDate: "May 5, 1995",
             husbandName: "Late Shri Khoobchand Jain",
             samadhiDate: "5 May 1995",
             samadhiPlace: "Shri Atishay Kshetra Pateriya Ji"
           }
-        }, 
-        
-        
+        },
+
+
         {
           id: 7,
           title: "Aryika Shri 105 Sudharmmati Mata Ji",
-          date: "September 30, 2017",
+
           commentCount: 0,
           image: "img/Gallery/8.png",
           link: "",
@@ -167,9 +174,9 @@ const NagarGauravDetails = ({ language = 'en' }) => {
             dikshaGuru: "Shri 108 Siddhant Sagar Ji Maharaj",
             samadhi: "3 November 2017, Bela, Kundalpur"
           }
-        }, 
-        
-        
+        },
+
+
         {
           id: 8,
           title: "Kshullika Shri 105 Prabhatmati Mata Ji",
@@ -180,6 +187,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           details: {
             birthName: "Smt. Kamodrani Jain",
             birthPlace: "Umra, Sagar District, Madhya Pradesh",
+            birthDate: "Year 1942",
             fatherName: "Shri Munnalal Jain",
             husbandName: "Late Shri Nemchand Ji",
             education: "Primary",
@@ -209,6 +217,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
             जन्म_नाम: "नवीन कुमार जैन",
             जन्म_स्थान: "गढ़ाकोटा, सागर, मध्य प्रदेश",
             पिता_का_नाम: "स्व. श्री खूबचंद जैन",
+            जन्म_तिथि: "4 दिसंबर 1957",
             माता_का_नाम: "स्व. श्रीमती इंद्रा देवी जैन (समाधिस्थ पुण्य 105 मुक्तिश्री माता जी)",
             ऐलक_दीक्षा: "20 अगस्त 1980, सिद्ध क्षेत्र नेमगिरी",
             ऐलक_दीक्षा_गुरु: "आचार्य श्री विद्यासागर जी",
@@ -231,6 +240,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
             जन्म_स्थान: "गढ़ाकोटा (सागर, म.प्र.)",
             पिता_का_नाम: "श्री कोमलचंद जैन",
             माता_का_नाम: "श्रीमती ताराबाई जैन",
+            जन्म_तिथि: "17 अप्रैल 1968",
             शिक्षा: "हाईस्कूल",
             क्षुल्लक_दीक्षा: "20 अप्रैल 1996, अक्षय तृतीया",
             क्षुल्लक_दीक्षा_गुरु: "आचार्य श्री विद्यासागर जी महाराज",
@@ -250,6 +260,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           details: {
             जन्म_नाम: "अरविंद जैन",
             जन्म_स्थान: "गुंजौरा, गढ़ाकोटा",
+            जन्म_तिथि: "8 अक्टूबर 1970",
             पिता_का_नाम: "श्री अमरचंद जी जैन",
             माता_का_नाम: "श्रीमती लक्ष्मी देवी जैन",
             शिक्षा: "ग्रेजुएट"
@@ -267,6 +278,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           details: {
             जन्म_नाम: "कुंवर लाल जी (बांदा वाले)",
             जन्म_स्थान: "पूरा (दमोह)",
+            जन्म_तिथि: "वर्ष 1910",
             पिता_का_नाम: "श्री बालचंद जी",
             माता_का_नाम: "श्रीमती शांति बाई जी",
             शिक्षा: "प्राइमरी",
@@ -275,7 +287,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
             समाधि: "वर्ष 1998, ग्राम हरदी"
           }
         },
-        
+
         {
           id: 4,
           title: "ऐलक श्री 105 सिद्धांत सागर जी महाराज",
@@ -286,6 +298,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           details: {
             जन्म_नाम: "सुमन कुमार जैन (जायक)",
             जन्म_स्थान: "गुढ़वार",
+            जन्म_तिथि: "14 अगस्त 1958",
             पिता_का_नाम: "श्री गुलजारिलाल जी जैन",
             माता_का_नाम: "श्रीमती शीलादेवी जी जैन",
             शिक्षा: "बी.कॉम.",
@@ -293,8 +306,8 @@ const NagarGauravDetails = ({ language = 'en' }) => {
             क्षुल्लक_दीक्षा: "16 मई 1991, सिद्धक्षेत्र मुकागिरी जी",
             ऐलक_दीक्षा: "21 जुलाई 1991, सिद्धक्षेत्र मुकागिरी जी"
           }
-        }, 
-        
+        },
+
         {
           id: 5,
           title: "आर्यिका श्री 105 आगत मति माता जी",
@@ -306,6 +319,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
             जन्म_नाम: "बाल ब्रह्मचारिणी विनिता दीदी",
             जन्म: "14 जुलाई 1976, बुधवार (श्रावण कृष्ण 3, वि.सं.)",
             जन्म_स्थान: "गढ़ाकोटा, जिला सागर (म.प्र.)",
+            जन्म_तिथि: "14 जुलाई 1976",
             पिता_का_नाम: "श्री नंदूराम जैन",
             माता_का_नाम: "श्रीमती केसरबाई जैन",
             शिक्षा: "एम.एससी. (फिजिक्स), एम.ए. (संस्कृत)",
@@ -316,9 +330,9 @@ const NagarGauravDetails = ({ language = 'en' }) => {
             स्थान: "श्री दिगम्बर जैन सिद्धक्षेत्र कुंडलपुर जी, जिला दमोह (म.प्र.)",
             विशेष: "आपकी सीधी आर्यिका दीक्षा हुई"
           }
-        }, 
-        
-        
+        },
+
+
         {
           id: 6,
           title: "समाधिस्थ पूज्य 105 मुक्तिश्री माता जी",
@@ -328,17 +342,17 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           link: "",
           details: {
             जन्म_नाम: "श्रीमती इंद्रा देवी जी",
+            जन्म_तिथि: "5 मई 1995",
             पति_का_नाम: "स्व. श्री खूबचंद जैन",
             समाधि_तिथि: "5 मई 1995",
             समाधि_स्थान: "श्री अतिशय क्षेत्र पटेरिया जी"
           }
-        }, 
-        
-        
+        },
+
+
         {
           id: 7,
           title: "आर्यिका श्री 105 सुधर्ममति माता जी",
-          date: "30 सितंबर 2017",
           commentCount: 0,
           image: "img/Gallery/8.png",
           link: "",
@@ -352,7 +366,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
             समाधि: "3 नवंबर 2017, बेला, कुंडलपुर"
           }
         },
-        
+
         {
           id: 8,
           title: "क्षुल्लिका श्री 105 प्रभातमति माता जी",
@@ -363,6 +377,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           details: {
             जन्म_नाम: "श्रीमती कमोद्रानी जैन",
             जन्म_स्थान: "उमरा, जिला सागर (म.प्र.)",
+            जन्म_तिथि: "वर्ष 1942",
             पिता_का_नाम: "श्री मुन्नालाल जी जैन",
             पति_का_नाम: "स्व. श्री नेमचंद जी",
             शिक्षा: "प्राइमरी",
@@ -396,88 +411,85 @@ const NagarGauravDetails = ({ language = 'en' }) => {
     );
   }
 
-return (
-  <div className="min-h-screen bg-[#fffcf7] pt-32 pb-24 px-4 md:px-8 relative overflow-hidden">
-    {/* Background Texture */}
-    <div className="absolute inset-0 opacity-[0.035] pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]" />
+  return (
+    <div className="min-h-screen bg-[#fffcf7] pt-32 pb-24 px-4 md:px-8 relative overflow-hidden">
+      {/* Background Texture */}
+      <div className="absolute inset-0 opacity-[0.035] pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]" />
 
-    <div className="max-w-6xl mx-auto relative z-10">
-      {/* Back Button */}
-      <button
-        onClick={() => navigate('/nagar-gaurav')}
-        className="flex items-center gap-2 text-[#d97706] hover:text-[#9a3412] font-cinzel font-bold mb-14 transition-all"
-      >
-        <ArrowLeft size={22} />
-        Back to Nagar Gaurav
-      </button>
+      <div className="max-w-6xl mx-auto relative z-10">
+        {/* Back Button */}
+        <button
+          onClick={() => navigate('/nagar-gaurav')}
+          className="flex items-center gap-2 text-[#d97706] hover:text-[#9a3412] font-cinzel font-bold mb-14 transition-all"
+        >
+          <ArrowLeft size={22} />
+          Back to Nagar Gaurav
+        </button>
 
-      {/* ================= MAIN PREMIUM LAYOUT ================= */}
-      <div className="grid grid-cols-1 lg:grid-cols-5 gap-16 items-start">
-        
-        {/* ===== LEFT : IMAGE PANEL ===== */}
-        <div className="lg:col-span-2 relative">
-          <div className="sticky top-32 rounded-2xl overflow-hidden shadow-[0_40px_90px_-30px_rgba(0,0,0,0.6)]">
-            <img
-              src={`/${person.image}`}
-              alt={person.title}
-              className="w-full h-[620px] object-cover object-top"
-            />
+        {/* ================= MAIN PREMIUM LAYOUT ================= */}
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-16 items-start">
 
-            {/* Gradient Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-t from-[#2a0d05]/95 via-[#2a0d05]/30 to-transparent" />
+          {/* ===== LEFT : IMAGE PANEL ===== */}
+          <div className="lg:col-span-2 relative">
+            <div className="sticky top-32 rounded-2xl overflow-hidden shadow-[0_40px_90px_-30px_rgba(0,0,0,0.6)]">
+              <img
+                src={`/${person.image}`}
+                alt={person.title}
+                className="w-full h-[620px] object-cover object-top"
+              />
 
-            {/* Date Badge */}
-            <div className="absolute top-6 left-6 bg-[#9a3412]/90 text-white text-xs font-cinzel tracking-widest px-4 py-2 border border-[#fdba74]/40 shadow-lg">
-              <Calendar size={14} className="inline mr-2" />
-              {person.date}
+              {/* Gradient Overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-[#2a0d05]/95 via-[#2a0d05]/30 to-transparent" />
+
+              {/* Date Badge */}
+
             </div>
           </div>
-        </div>
 
-        {/* ===== RIGHT : CONTENT PANEL ===== */}
-        <div className="lg:col-span-3">
-          <div className="relative bg-white rounded-2xl p-10 md:p-14 shadow-[0_30px_80px_-30px_rgba(0,0,0,0.3)] border border-[#fed7aa]/60">
-            
-            {/* Gold Accent Line */}
-            <div className="absolute top-0 left-12 right-12 h-[2px] bg-gradient-to-r from-transparent via-[#d97706] to-transparent" />
+          {/* ===== RIGHT : CONTENT PANEL ===== */}
+          <div className="lg:col-span-3">
+            <div className="relative bg-white rounded-2xl p-10 md:p-14 shadow-[0_30px_80px_-30px_rgba(0,0,0,0.3)] border border-[#fed7aa]/60">
 
-            {/* Title */}
-            <h1 className="text-3xl md:text-5xl font-cinzel font-bold text-[#5c2415] leading-tight mb-8">
-              {person.title}
-            </h1>
+              {/* Gold Accent Line */}
+              <div className="absolute top-0 left-12 right-12 h-[2px] bg-gradient-to-r from-transparent via-[#d97706] to-transparent" />
 
-            {/* Subtitle Divider */}
-            <div className="h-px w-24 bg-[#d97706]/50 mb-12"></div>
+              {/* Title */}
+              <h1 className="text-3xl md:text-5xl font-cinzel font-bold text-[#5c2415] leading-tight mb-8">
+                {person.title}
+              </h1>
 
-            {/* Section Heading */}
-            <h2 className="text-xl font-cinzel font-bold text-[#9a3412] tracking-wide mb-10">
-              Life & Spiritual Journey
-            </h2>
+              {/* Subtitle Divider */}
+              <div className="h-px w-24 bg-[#d97706]/50 mb-12"></div>
 
-            {/* Details */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-10">
-              {Object.entries(person.details).map(([key, value], index) => (
-                <div
-                  key={index}
-                  className="relative pl-6 border-l-4 border-[#d97706]/60"
-                >
-                  <h3 className="text-xs font-cinzel font-bold text-[#9a3412] uppercase tracking-widest mb-2">
-                    {key.replace(/_/g, ' ')}
-                  </h3>
-                  <p className="text-[#3b1307] text-base leading-relaxed">
-                    {value}
-                  </p>
-                </div>
-              ))}
+              {/* Section Heading */}
+              <h2 className="text-xl font-cinzel font-bold text-[#9a3412] tracking-wide mb-10">
+                Life & Spiritual Journey
+              </h2>
+
+              {/* Details */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-10">
+                {Object.entries(person.details).map(([key, value], index) => (
+                  <div
+                    key={index}
+                    className="relative pl-6 border-l-4 border-[#d97706]/60"
+                  >
+                    <h3 className="text-xs font-cinzel font-bold text-[#9a3412] uppercase tracking-widest mb-2">
+                      {key.replace(/_/g, ' ')}
+                    </h3>
+                    <p className="text-[#3b1307] text-base leading-relaxed">
+                      {value}
+                    </p>
+                  </div>
+                ))}
+              </div>
+
             </div>
-
           </div>
-        </div>
 
+        </div>
       </div>
     </div>
-  </div>
-);
+  );
 
 
 };
