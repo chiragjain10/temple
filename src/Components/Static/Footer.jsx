@@ -32,8 +32,8 @@ const Footer = ({ language }) => {
       contact: {
         title: "Contact Us",
         address: "Gadhakota, Dist. Sagar, Madhya Pradesh - 470229",
-        phone: "+91 98765 43210",
-        email: "info@pateriyaji.com"
+        phone: "+91 9300581108",
+        email: "atishaykshetrapateriyaji@gmail.com"
       },
       newsletter: {
         title: "Newsletter",
@@ -60,8 +60,8 @@ const Footer = ({ language }) => {
       contact: {
         title: "संपर्क करें",
         address: "गढ़ाकोटा, जिला सागर, मध्य प्रदेश - 470229",
-        phone: "+91 98765 43210",
-        email: "info@pateriyaji.com"
+        phone: "+91 9300581108",
+        email: "atishaykshetrapateriyaji@gmail.com"
       },
       newsletter: {
         title: "समाचार पत्रिका",

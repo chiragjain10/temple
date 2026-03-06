@@ -4,45 +4,45 @@ import { MapPin, Phone, Mail, Clock, Send, Train, Bus, Plane } from 'lucide-reac
 const Contact = ({ language }) => {
   const content = {
     en: {
-      title: "Get in Touch",
-      subtitle: "We are here to assist you with your pilgrimage. Feel free to reach out.",
+      title: "Connect with Divinity",
+      subtitle: "We are dedicated to assisting your spiritual journey. Reach out for pilgrimage guidance or temple inquiries.",
       form: {
-        name: "Your Name",
+        name: "Full Name",
         email: "Email Address",
         subject: "Subject",
-        message: "Message",
+        message: "Your Message",
         submit: "Send Message"
       },
       info: {
         address: {
-          title: "Our Location",
-          value: "Shri Parsvanath Digambar Jain Atishaya Kshetra, Pateria Garha Kota, Dist. Sagar, Madhya Pradesh - 470229"
+          title: "Sacred Location",
+          value: "Shri Parshvanath Digambar Jain Atishay Kshetra, Pateriya Gadhakota, Dist. Sagar, Madhya Pradesh - 470229"
         },
         phone: {
-          title: "Phone Support",
-          value: "+91 98765 43210"
+          title: "Pilgrim Support",
+          value: "+91 9300581108"
         },
         email: {
-          title: "Email Us",
-          value: "contact@pateriyaji.com"
+          title: "Official Correspondence",
+          value: "atishaykshetrapateriyaji@gmail.com"
         },
         timings: {
-          title: "Temple Timings",
-          value: "Morning: 5:30 AM - 12:30 PM\nEvening: 5:30 PM - 8:30 PM"
+          title: "Darshan Timings",
+          value: "Morning: 05:30 AM - 12:30 PM\nEvening: 05:30 PM - 08:30 PM"
         }
       },
       reach: {
-        title: "How to Reach",
-        train: "Nearest Railway Stations: Sagar (45km), Damoh (32km), Patharia (19km).",
-        road: "Situated on Sagar-Damoh Road. Frequent buses available from Sagar and Damoh.",
-        air: "Nearest Airport: Jabalpur (approx 150km), Bhopal (approx 200km)."
+        title: "Plan Your Visit",
+        train: "Major railheads are Sagar (45km) and Damoh (32km). Patharia (19km) is the nearest local station.",
+        road: "Strategically located on the Sagar-Damoh Highway. Frequent luxury and state buses are available.",
+        air: "Nearest airports are Jabalpur (150km) and Bhopal (200km), connecting you to major Indian cities."
       }
     },
     hi: {
-      title: "संपर्क करें",
-      subtitle: "हम आपकी तीर्थयात्रा में सहायता के लिए यहाँ हैं। बेझिझक संपर्क करें।",
+      title: "संपर्क सूत्र",
+      subtitle: "आपकी सुखद तीर्थयात्रा के लिए हम सदैव तत्पर हैं। मंदिर संबंधी जानकारी हेतु संपर्क करें।",
       form: {
-        name: "आपका नाम",
+        name: "आपका पूर्ण नाम",
         email: "ईमेल पता",
         subject: "विषय",
         message: "संदेश",
@@ -50,27 +50,27 @@ const Contact = ({ language }) => {
       },
       info: {
         address: {
-          title: "हमारा पता",
+          title: "तीर्थ स्थल",
           value: "श्री पार्श्वनाथ दिगम्बर जैन अतिशय क्षेत्र, पटेरिया गढ़ाकोटा, जिला सागर, मध्य प्रदेश - ४७०२२९"
         },
         phone: {
-          title: "फोन संपर्क",
-          value: "+९१ ९८७६५ ४३२१०"
+          title: "तीर्थयात्री सहायता",
+          value: "+91 9300581108"
         },
         email: {
-          title: "ईमेल करें",
-          value: "contact@pateriyaji.com"
+          title: "ईमेल",
+          value: "atishaykshetrapateriyaji@gmail.com"
         },
         timings: {
-          title: "मंदिर का समय",
-          value: "प्रातः: ५:३० - १२:३०\nसायं: ५:३० - ८:३०"
+          title: "दर्शन समय",
+          value: "प्रातः: ०५:३० - १२:३०\nसायं: ०५:३० - ०८:३०"
         }
       },
       reach: {
-        title: "कैसे पहुंचें",
-        train: "निकटतम रेलवे स्टेशन: सागर (४५ किमी), दमोह (३२ किमी), पथरिया (१९ किमी)।",
-        road: "सागर-दमोह मार्ग पर स्थित। सागर और दमोह से बस सेवा उपलब्ध है।",
-        air: "निकटतम हवाई अड्डा: जबलपुर (लगभग १५० किमी), भोपाल (लगभग २०० किमी)।"
+        title: "पहुंचने का मार्ग",
+        train: "निकटतम प्रमुख स्टेशन: सागर (४५ किमी) एवं दमोह (३२ किमी)। पथरिया (१९ किमी) स्थानीय स्टेशन है।",
+        road: "सागर-दमोह राजमार्ग पर स्थित। सागर और दमोह से नियमित बस एवं टैक्सी सेवा उपलब्ध है।",
+        air: "निकटतम हवाई अड्डा: जबलपुर (१५० किमी) एवं भोपाल (२०० किमी)।"
       }
     }
   };

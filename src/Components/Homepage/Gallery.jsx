@@ -11,9 +11,12 @@ const Gallery = ({ language }) => {
       subtitle: "Glimpses of the sacred kshetra and its spiritual aura",
       viewAll: "View Full Gallery",
       images: [
-        { id: 1, src: "/img/Gallery/gp (1).jpeg" },
-        { id: 2, src: "/img/Gallery/gp (2).jpeg" },
-        { id: 3, src: "/img/Gallery/gp (3).jpeg" },
+        { id: 1, src: "/img/Gallery/98.png" },
+        { id: 2, src: "/img/Gallery/gp (1).jpeg" },
+        { id: 3, src: "/img/Gallery/00.png" },
+
+        // { id: 7, src: "/img/Gallery/gp (2).jpeg" },
+        // { id: 8, src: "/img/Gallery/gp (3).jpeg" },
         { id: 4, src: "/img/Gallery/gp (4).jpeg" },
         { id: 5, src: "/img/Gallery/gp (5).jpeg" },
         { id: 6, src: "/img/Gallery/gp (6).jpeg" }
@@ -24,9 +27,12 @@ const Gallery = ({ language }) => {
       subtitle: "पवित्र क्षेत्र और उसकी आध्यात्मिक आभा की झलकियाँ",
       viewAll: "पूर्ण गैलरी देखें",
        images: [
-        { id: 1, src: "/img/Gallery/gp (1).jpeg" },
-        { id: 2, src: "/img/Gallery/gp (2).jpeg" },
-        { id: 3, src: "/img/Gallery/gp (3).jpeg" },
+         { id: 1, src: "/img/Gallery/98.png" },
+        { id: 2, src: "/img/Gallery/gp (1).jpeg" },
+        { id: 3, src: "/img/Gallery/00.png" },
+
+        // { id: 7, src: "/img/Gallery/gp (2).jpeg" },
+        // { id: 8, src: "/img/Gallery/gp (3).jpeg" },
         { id: 4, src: "/img/Gallery/gp (4).jpeg" },
         { id: 5, src: "/img/Gallery/gp (5).jpeg" },
         { id: 6, src: "/img/Gallery/gp (6).jpeg" }

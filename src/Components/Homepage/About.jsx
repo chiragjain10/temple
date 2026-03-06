@@ -11,26 +11,26 @@ const FeaturesSection = ({ language }) => {
         {
           id: "architecture",
           title: "Architectural Features",
-          description: "This temple is unique for its architectural defiance. About 300 years ago, when traditional North Indian styles were fading, the builders here consciously avoided Mughal architectural symbols like domes and arches. Instead, they pioneered a distinct style influenced by Maratha architecture, creating a unique identity for this sacred space.",
-          highlight: "A rare blend of Maratha influence and Jain Vastu Shastra.",
+          description: "A living treasury of Indian heritage, this temple stands as a rare specimen of architectural defiance. Built approximately 244 years ago, its creators consciously rejected contemporary Mughal symbols like domes and arches, opting instead for a pure Indian style blended with Maratha architecture, featuring a massive 'Parakota' and internal circumambulation paths.",
+          highlight: "A rare blend of Maratha influence and pure Indian Vastu Shastra.",
           icon: <Landmark className="text-orange-600" size={32} />,
-          image: "img/Gallery/gp (10).jpeg"
+          image: "img/Gallery/99.png"
         },
         {
           id: "construction",
           title: "Construction Period",
-          description: "The spiritual energy of this Kshetra was formally anchored during the great consecration ceremony. The temple's Pratishta (consecration) took place on Magh Sudi Ashtami, Samvat 1839. For centuries, this date has stood as a testament to the enduring faith of the Digambar Jain community.",
-          highlight: "Consecrated on Magh Sudi Ashtami, Samvat 1839.",
+          description: "The temple's Pratishta was celebrated on Magh Sudi Ashtami, Samvat 1839, by Shah Mohan Das Ramkishun Ji under the royal patronage of Maharaja Harisingh Ju Dev Bundela. Interestingly, the construction was funded by a single day's profit from the cotton trade. Due to the divine sounds of instruments heard at midnight, it is fondly called the 'Temple of Jhunjhuniya'.",
+          highlight: "Consecrated on Magh Sudi Ashtami, Samvat 1839 (1832 AD).",
           icon: <History className="text-orange-600" size={32} />,
           image: "img/Gallery/gp (5).jpeg"
         },
         {
           id: "location",
           title: "Location & Accessibility",
-          description: "Shri Parshvanath Digambar Jain Atishay Kshetra Pateriya Ji is located in Gadhakota, situated conveniently on the Jabalpur-Sagar highway in Madhya Pradesh. Its geographic location makes it a vital spiritual stop for pilgrims traveling through the heart of India.",
-          highlight: "Located on the Jabalpur-Sagar Road, Gadhakota (M.P.)",
+          description: "Shri Parshvanath Digambar Jain Atishay Kshetra Pateriya Ji is located in Gadhakota, Sagar district, M.P. It is situated 45km from Sagar and 32km from Damoh on the Jabalpur-Sagar highway. Its geographic location makes it a vital spiritual stop for pilgrims traveling through the heart of Bundelkhand.",
+          highlight: "Located on the Jabalpur-Sagar Road, Gadhakota, Dist. Sagar (M.P.)",
           icon: <MapPin className="text-orange-600" size={32} />,
-          image: "img/Gallery/gp (11).jpeg"
+          image: "img/Gallery/gp (12).jpeg"
         }
       ],
       viewMap: "View on Google Maps"
@@ -42,26 +42,26 @@ const FeaturesSection = ({ language }) => {
         {
           id: "architecture",
           title: "विशेषताएं",
-          description: "इस मंदिर की विशेषता यह है कि लगभग 300 वर्ष पूर्व जब प्राचीन मंदिर निर्माण शैली उत्तर भारत से अपनी पहचान खो रही थी, उस काल में इस मंदिर के निर्माताओं ने गुबंद और महराबों जैसे मुगल वास्तु प्रतीकों की उपेक्षा की। उन्होंने अपने लिये मराठा शैली मिश्रित एक अलग प्रकार की मंदिर शैली को अपनाया, जो इस क्षेत्र को विशिष्ट बनाती है।",
-          highlight: "मराठा शैली और जैन वास्तु शास्त्र का दुर्लभ संगम।",
+          description: "लगभग २४४ वर्ष पूर्व निर्मित यह मंदिर अपनी विशिष्ट पहचान रखता है। उस काल में निर्माताओं ने गुबंद और महराबों जैसे मुगल वास्तु प्रतीकों के स्थान पर मराठा शैली मिश्रित विशुद्ध भारतीय स्थापत्य को अपनाया। विशाल परकोटा, प्रदक्षिणा पथ एवं अंतः परिक्रमा निर्माताओं की भारतीयता का जीवंत प्रमाण हैं जो आज भी अक्षुण्ण है।",
+          highlight: "मराठा शैली और विशुद्ध भारतीय स्थापत्य का दुर्लभ संगम।",
           icon: <Landmark className="text-orange-600" size={32} />,
-          image: "img/Gallery/gp (10).jpeg"
+          image: "img/Gallery/99.png"
         },
         {
           id: "construction",
           title: "निर्माण काल",
-          description: "इस मंदिर की आध्यात्मिक ऊर्जा को भव्य प्रतिष्ठा समारोह के दौरान स्थापित किया गया था। इस मंदिर की प्रतिष्ठा माघ सुदी अष्टमी संवत 1839 को हुई थी। सदियों से यह तिथि दिगंबर जैन समाज की अटूट आस्था का प्रतीक बनी हुई है।",
-          highlight: "माघ सुदी अष्टमी संवत 1839 को प्रतिष्ठित।",
+          description: "मंदिर की प्रतिष्ठा माघ सुदी अष्टमी संवत १८३९ को महाराजा हरिसिंहजू देव बुन्देला के संरक्षण में शाह मोहनदास रामकिशुन जी द्वारा कराई गई थी। इस भव्य जिनालय का निर्माण एक दिन की रूई व्यापार की आय से हुआ था। रात्रि में यहाँ देवकृत वाद्यों की ध्वनि सुनाई देने के कारण स्थानीय लोग इसे 'झुनझुनिया का मंदिर' भी कहते हैं।",
+          highlight: "माघ सुदी अष्टमी संवत १८३९ को प्रतिष्ठित।",
           icon: <History className="text-orange-600" size={32} />,
           image: "img/Gallery/gp (5).jpeg"
         },
         {
           id: "location",
           title: "अवस्थिति",
-          description: "श्री पार्श्वनाथ दिगम्बर जैन अतिशय क्षेत्र पटेरिया जी गढ़ाकोटा, मध्यप्रदेश के जबलपुर-सागर मार्ग पर स्थित है। इसकी भौगोलिक स्थिति इसे भारत के मध्य भाग से गुजरने वाले तीर्थयात्रियों के लिए एक महत्वपूर्ण आध्यात्मिक केंद्र बनाती है।",
-          highlight: "जबलपुर-सागर मार्ग, गढ़ाकोटा (म.प्र.) में स्थित।",
+          description: "श्री पार्श्वनाथ दिगम्बर जैन अतिशय क्षेत्र पटेरिया जी सागर जिले के गढ़ाकोटा में, जबलपुर-सागर मार्ग पर स्थित है। यह दमोह से ३२ किमी और सागर से ४५ किमी की दूरी पर है। इसकी भौगोलिक स्थिति इसे बुन्देलखण्ड के हृदय क्षेत्र से गुजरने वाले तीर्थयात्रियों के लिए एक मुख्य केंद्र बनाती है।",
+          highlight: "जबलपुर-सागर मार्ग, गढ़ाकोटा, जिला सागर (म.प्र.) में स्थित।",
           icon: <MapPin className="text-orange-600" size={32} />,
-          image: "img/Gallery/gp (11).jpeg"
+          image: "img/Gallery/gp (12).jpeg"
         }
       ],
       viewMap: "गूगल मैप्स पर देखें"

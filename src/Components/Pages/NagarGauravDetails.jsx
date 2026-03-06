@@ -20,7 +20,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           title: "Upadhyay Shri 108 Gupti Sagar Ji Maharaj",
           date: "December 4, 1957",
           commentCount: 0,
-          image: "img/Gallery/1.jpeg",
+          image: "img/Gallery/1.png",
           link: "",
           details: {
             birthName: "Naveen Kumar Jain",
@@ -42,7 +42,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           title: "Muni Shri 108 Ajit Sagar Ji Maharaj",
           date: "April 17, 1968",
           commentCount: 0,
-          image: "img/Gallery/gp (1).jpeg",
+          image: "img/Gallery/2.png",
           link: "",
           details: {
             birthName: "Vinod Kumar Jain",
@@ -65,7 +65,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           title: "Muni Shri 108 Prarthana Sagar Ji Maharaj",
           date: "October 8, 1970",
           commentCount: 0,
-          image: "img/Gallery/3.jpeg",
+          image: "img/Gallery/3.png",
           link: "",
           details: {
             birthName: "Arvind Jain",
@@ -83,7 +83,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           title: "Muni Shri 108 Sugyan Sagar Ji Maharaj",
           date: "Year 1910",
           commentCount: 0,
-          image: "img/Gallery/4.jpeg",
+          image: "img/Gallery/4.png",
           link: "",
           details: {
             birthName: "Kunwar Lal Ji (Banda Wale)",
@@ -103,7 +103,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           title: "Ailak Shri 105 Siddhant Sagar Ji Maharaj",
           date: "August 14, 1958",
           commentCount: 0,
-          image: "img/Gallery/5.jpeg",
+          image: "img/Gallery/5.png",
           link: "",
           details: {
             birthName: "Suman Kumar Jain (Jayak)",
@@ -123,7 +123,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           title: "Aryika Shri 105 Aagat Mati Mata Ji",
           date: "July 14, 1976",
           commentCount: 0,
-          image: "img/Gallery/6.jpeg",
+          image: "img/Gallery/6.png",
           link: "",
           details: {
             birthName: "Bal Brahmacharini Vinita Didi",
@@ -146,7 +146,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           title: "Samadhistha Pujya 105 Muktishri Mata Ji",
           date: "May 5, 1995",
           commentCount: 0,
-          image: "img/Gallery/7.jpeg",
+          image: "img/Gallery/7.png",
           link: "",
           details: {
             birthName: "Smt. Indra Devi Ji",
@@ -182,7 +182,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           title: "Kshullika Shri 105 Prabhatmati Mata Ji",
           date: "Year 1942",
           commentCount: 0,
-          image: "img/Gallery/gp (2).jpeg",
+          image: "img/Gallery/gp (2).png",
           link: "",
           details: {
             birthName: "Smt. Kamodrani Jain",
@@ -211,7 +211,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           id: 0, title: "उपाध्याय श्री 108 गुप्ति सागर जी महाराज",
           date: "4 दिसंबर 1957",
           commentCount: 0,
-          image: "img/Gallery/1.jpeg",
+          image: "img/Gallery/1.png",
           link: "",
           details: {
             जन्म_नाम: "नवीन कुमार जैन",
@@ -233,7 +233,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           title: "मुनि श्री 108 अजित सागर जी महाराज",
           date: "17 अप्रैल 1968",
           commentCount: 0,
-          image: "img/Gallery/gp (1).jpeg",
+          image: "img/Gallery/2.png",
           link: "",
           details: {
             जन्म_नाम: "विनोद कुमार जैन",
@@ -255,7 +255,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           title: "मुनि श्री 108 प्रार्थना सागर जी महाराज",
           date: "8 अक्टूबर 1970",
           commentCount: 0,
-          image: "img/Gallery/3.jpeg",
+          image: "img/Gallery/3.png",
           link: "",
           details: {
             जन्म_नाम: "अरविंद जैन",
@@ -273,7 +273,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           title: "मुनि श्री 108 सुज्ञान सागर जी महाराज",
           date: "वर्ष 1910",
           commentCount: 0,
-          image: "img/Gallery/4.jpeg",
+          image: "img/Gallery/4.png",
           link: "",
           details: {
             जन्म_नाम: "कुंवर लाल जी (बांदा वाले)",
@@ -293,7 +293,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           title: "ऐलक श्री 105 सिद्धांत सागर जी महाराज",
           date: "14 अगस्त 1958",
           commentCount: 0,
-          image: "img/Gallery/5.jpeg",
+          image: "img/Gallery/5.png",
           link: "",
           details: {
             जन्म_नाम: "सुमन कुमार जैन (जायक)",
@@ -313,7 +313,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           title: "आर्यिका श्री 105 आगत मति माता जी",
           date: "14 जुलाई 1976",
           commentCount: 0,
-          image: "img/Gallery/6.jpeg",
+          image: "img/Gallery/6.png",
           link: "",
           details: {
             जन्म_नाम: "बाल ब्रह्मचारिणी विनिता दीदी",
@@ -338,7 +338,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           title: "समाधिस्थ पूज्य 105 मुक्तिश्री माता जी",
           date: "5 मई 1995",
           commentCount: 0,
-          image: "img/Gallery/7.jpeg",
+          image: "img/Gallery/7.png",
           link: "",
           details: {
             जन्म_नाम: "श्रीमती इंद्रा देवी जी",
@@ -372,7 +372,7 @@ const NagarGauravDetails = ({ language = 'en' }) => {
           title: "क्षुल्लिका श्री 105 प्रभातमति माता जी",
           date: "वर्ष 1942",
           commentCount: 0,
-          image: "img/Gallery/gp (2).jpeg",
+          image: "img/Gallery/9.png",
           link: "",
           details: {
             जन्म_नाम: "श्रीमती कमोद्रानी जैन",
