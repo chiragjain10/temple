@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectFade, Pagination, Navigation, Parallax } from 'swiper/modules';
 import { MapPin, Heart, ChevronLeft, ChevronRight } from 'lucide-react';
@@ -10,6 +11,8 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 const HeroSection = ({ language = 'en' }) => {
+  const navigate = useNavigate();
+
   const heroContent = {
     en: [
       {
@@ -175,7 +178,13 @@ const HeroSection = ({ language = 'en' }) => {
                 data-swiper-parallax="-800"
                 className="flex flex-col sm:flex-row gap-5"
               >
-                <button className="relative group px-10 py-4 bg-yellow-600 hover:bg-yellow-500 text-white overflow-hidden transition-all duration-300">
+                <button 
+                  onClick={() => {
+                    if (slide.id === 1) navigate('/about');
+                    else if (slide.id === 2) navigate('/panch-kalyan');
+                    else if (slide.id === 3) navigate('/gallery');
+                  }}
+                  className="relative group px-10 py-4 bg-yellow-600 hover:bg-yellow-500 text-white overflow-hidden transition-all duration-300">
                   <div className="absolute inset-0 w-1/4 h-full bg-white/20 -skew-x-[45deg] -translate-x-full group-hover:animate-[shimmer_0.6s_infinite]"></div>
                   <div className="flex items-center gap-3 font-cinzel font-bold tracking-widest relative z-10">
                     <MapPin size={18} className="text-yellow-200" />
@@ -183,7 +192,13 @@ const HeroSection = ({ language = 'en' }) => {
                   </div>
                 </button>
 
-                <button className="px-10 py-4 border border-white/40 hover:border-yellow-500 text-white backdrop-blur-md transition-all duration-300 group">
+                <button 
+                  onClick={() => {
+                    if (slide.id === 1) navigate('/donate');
+                    else if (slide.id === 2) navigate('/panch-kalyan');
+                    else if (slide.id === 3) navigate('/about');
+                  }}
+                  className="px-10 py-4 border border-white/40 hover:border-yellow-500 text-white backdrop-blur-md transition-all duration-300 group">
                   <div className="flex items-center gap-3 font-cinzel font-bold tracking-widest">
                     <Heart size={18} className="text-red-500 group-hover:scale-125 transition-transform" />
                     {slide.ctaSecondary}

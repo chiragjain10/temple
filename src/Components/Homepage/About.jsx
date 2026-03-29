@@ -146,11 +146,11 @@ const FeaturesSection = ({ language }) => {
                   </p>
                 </div>
 
-                {block.id === 'location' && (
+                {/* {block.id === 'location' && (
                   <button className="inline-flex items-center gap-3 px-8 py-3 bg-[#5c2415] text-white font-cinzel font-bold text-sm tracking-widest uppercase rounded-sm hover:bg-[#431407] transition-all shadow-lg hover:shadow-orange-900/30 group">
                     {t.viewMap} <ChevronRight size={16} className="group-hover:translate-x-1 transition-transform" />
                   </button>
-                )}
+                )} */}
               </div>
             </div>
           ))}

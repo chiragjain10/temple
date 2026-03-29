@@ -1,5 +1,6 @@
 import React from 'react';
 import { Sparkles, Map, Landmark, ScrollText, Users, MoveRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const AttractionsSection = ({ language }) => {
   // 1. Content Object - Spiritual Narratives
@@ -117,7 +118,7 @@ const AttractionsSection = ({ language }) => {
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-yellow-100 rounded-full blur-3xl opacity-30 -ml-48 -mb-48"></div>
 
       <div className="max-w-site mx-auto px-6 relative z-10">
-        
+
         {/* Header Section */}
         <div className="max-w-3xl mx-auto text-center mb-16">
           <div className="flex justify-center items-center gap-4 mb-4">
@@ -134,20 +135,20 @@ const AttractionsSection = ({ language }) => {
             {t.sectionSubtitle}
           </p>
           <div className="flex justify-center mt-6">
-             <div className="w-24 h-1 bg-gradient-to-r from-transparent via-[#d97706] to-transparent"></div>
+            <div className="w-24 h-1 bg-gradient-to-r from-transparent via-[#d97706] to-transparent"></div>
           </div>
         </div>
 
         {/* Attractions Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {t.items.map((item) => (
-            <div 
+            <div
               key={item.id}
               className="group bg-white border border-[#fed7aa] p-8 rounded-sm shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] hover:shadow-[0_10px_30px_-4px_rgba(217,119,6,0.2)] transition-all duration-500 transform hover:-translate-y-2 relative overflow-hidden"
             >
               {/* Card Accent Overlay */}
               <div className="absolute top-0 right-0 w-24 h-24 bg-orange-50 rounded-bl-full -mr-12 -mt-12 group-hover:bg-[#9a3412] transition-colors duration-500 z-0"></div>
-              
+
               {/* Ornamental Border */}
               <div className="absolute inset-0 border border-[#fff7ed] m-1 pointer-events-none"></div>
               <div className="absolute inset-0 border border-[#ffedd5] m-2 pointer-events-none"></div>
@@ -171,7 +172,7 @@ const AttractionsSection = ({ language }) => {
                   {item.description}
                 </p>
               </div>
-              
+
               {/* Subtle Divider */}
               <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-[#fed7aa] via-[#d97706] to-[#fed7aa] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-700"></div>
             </div>
@@ -180,11 +181,13 @@ const AttractionsSection = ({ language }) => {
 
         {/* Bottom CTA */}
         <div className="mt-16 text-center">
-          <button className="inline-flex items-center gap-3 bg-gradient-to-r from-[#d97706] to-[#b45309] text-white px-10 py-4 rounded-full font-cinzel font-bold tracking-widest hover:shadow-[0_0_20px_rgba(217,119,6,0.5)] transition-all duration-300 border border-[#fdba74]/30 group relative overflow-hidden hover:scale-105">
-            <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:animate-shine"></span>
-            {t.cta}
-            <MoveRight size={20} className="group-hover:translate-x-2 transition-transform" />
-          </button>
+          <Link to="/about">
+            <button className="inline-flex items-center gap-3 bg-gradient-to-r from-[#d97706] to-[#b45309] text-white px-10 py-4 rounded-full font-cinzel font-bold tracking-widest hover:shadow-[0_0_20px_rgba(217,119,6,0.5)] transition-all duration-300 border border-[#fdba74]/30 group relative overflow-hidden hover:scale-105">
+              <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:animate-shine"></span>
+              {t.cta}
+              <MoveRight size={20} className="group-hover:translate-x-2 transition-transform" />
+            </button>
+          </Link>
         </div>
       </div>
     </section>
