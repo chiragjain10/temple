@@ -101,12 +101,34 @@ const Footer = ({ language }) => {
             </p>
             {/* Social Icons */}
             <div className="flex gap-4 pt-4">
-              {[Facebook, Youtube, Instagram].map((Icon, i) => (
-                <a key={i} href="#" className="w-10 h-10 rounded-full bg-[#5c2415] border border-[#d97706]/50 flex items-center justify-center hover:bg-[#d97706] hover:text-white hover:border-[#fbbf24] transition-all duration-300 group shadow-lg">
-                  <Icon size={18} className="group-hover:scale-110 transition-transform" />
+              {[
+                {
+                  icon: Facebook,
+                  link: "https://www.facebook.com/jainpateriyaji"
+                },
+                {
+                  icon: Youtube,
+                  link: "https://youtube.com/@atishaykshetrapateriyaji"
+                },
+                {
+                  icon: Instagram,
+                  link: "https://www.instagram.com/jainpateriyaji"
+                }
+              ].map(({ icon: Icon, link }, i) => (
+                <a
+                  key={i}
+                  href={link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 rounded-full bg-[#5c2415] border border-[#d97706]/50 flex items-center justify-center hover:bg-[#d97706] hover:text-white hover:border-[#fbbf24] transition-all duration-300 group shadow-lg"
+                >
+                  <Icon
+                    size={18}
+                    className="group-hover:scale-110 transition-transform"
+                  />
                 </a>
               ))}
-            </div>
+            </div>              
           </div>
 
           {/* Section 2: Quick Links */}

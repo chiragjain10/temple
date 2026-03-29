@@ -12,8 +12,8 @@ const Donate = ({ language }) => {
       subtitle:
         "Your contribution helps in the preservation, development, and daily religious activities of this sacred pilgrimage.",
       bankDetails: "Bank Account Details",
-      taxExemption:
-        "Donations are eligible for tax exemption under Section 80G.",
+      // taxExemption:
+      //   "Donations are eligible for tax exemption under Section 80G.",
       booking: {
         title: "Online Shantidhara & Religious Ritual Booking",
         description:
@@ -57,8 +57,8 @@ const Donate = ({ language }) => {
       subtitle:
         "आपका योगदान इस पवित्र तीर्थ के संरक्षण, विकास और दैनिक धार्मिक गतिविधियों में सहायक है।",
       bankDetails: "बैंक खाता विवरण",
-      taxExemption:
-        "दान धारा 80G के तहत कर छूट के लिए पात्र है।",
+      // taxExemption:
+      //   "दान धारा 80G के तहत कर छूट के लिए पात्र है।",
       booking: {
         title: "ऑनलाइन शांतिधारा एवं धार्मिक विधान बुकिंग",
         description:
