@@ -8,7 +8,7 @@ import {
 const AboutPage = ({ language = 'hi' }) => {
   const content = {
     en: {
-      title: "Shri Digambar Jain Atishay Kshetra Pateriyaji",
+      title: "Shri Digambar  Jain Atishay Kshetra Pateriyaji",
       subtitle: "A 244-year-old living treasury of Jain culture, history, and divine miracles.",
       shloka: "Pārśvanātha kē yuga caraṇa bandōṁ śīṣa navāya, Atiśaya kṣētra patēriyā namana karūm̐ śiranāya.",
       historyTitle: "Legacy & Legend",
