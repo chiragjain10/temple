@@ -101,8 +101,8 @@ const Header = ({ language, onLanguageChange }) => {
             <span className="text-yellow-500 text-sm">ॐ</span> 
             Jai Jinendra | जय जिनेन्द्र
           </span>
-          <a href="tel:+919876543210" className="flex items-center gap-2 hover:text-yellow-400 transition-colors">
-            <Phone size={12} className="text-yellow-500" /> +91 98765 43210
+          <a href="tel:+919300581108" className="flex items-center gap-2 hover:text-yellow-400 transition-colors">
+            <Phone size={12} className="text-yellow-500" /> +91 9300581108
           </a>
         </div>
         <div className="flex items-center gap-6">
